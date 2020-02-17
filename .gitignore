@@ -1,0 +1,13 @@
+.vs/
+Library/
+Temp/
+obj/
+Logs/
+Assets/Textures/Colors/
+Assets/Textures/Colors.meta
+Assets/Models/Letters/
+Assets/Models/Letters.meta
+Assets/Models/Numbers/
+Assets/Models/Numbers.meta
+Assets/Models/Symbols/
+Assets/Models/Symbols.meta
