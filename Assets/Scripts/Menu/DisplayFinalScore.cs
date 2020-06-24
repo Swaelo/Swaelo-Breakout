@@ -17,7 +17,7 @@ public class DisplayFinalScore : MonoBehaviour
     private void Start()
     {
         //Get the players final score count
-        int FinalScore = GameObject.Find("ScoreSaver").GetComponent<ScoreSaver>().FinalScore;
+        int FinalScore = GameObject.Find("ScoreSaver(Clone)").GetComponent<ScoreSaver>().FinalScore;
 
         //Split the numbers apart
         int[] ScoreNumbers = GetIntArray(FinalScore);

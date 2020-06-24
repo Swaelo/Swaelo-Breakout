@@ -35,19 +35,19 @@ public class SoundEffectsPlayer : MonoBehaviour
         switch(BlockColor)
         {
             case ("Red"):
-                SoundPlayer.PlayOneShot(DestroyRedBlockSound);
+                SoundPlayer.PlayOneShot(DestroyRedBlockSound, 0.3f);
                 break;
             case ("Orange"):
-                SoundPlayer.PlayOneShot(DestroyOrangeBlockSound);
+                SoundPlayer.PlayOneShot(DestroyOrangeBlockSound, 0.3f);
                 break;
             case ("Yellow"):
-                SoundPlayer.PlayOneShot(DestroyYellowBlockSound);
+                SoundPlayer.PlayOneShot(DestroyYellowBlockSound, 0.3f);
                 break;
             case ("Green"):
-                SoundPlayer.PlayOneShot(DestroyGreenBlockSound);
+                SoundPlayer.PlayOneShot(DestroyGreenBlockSound, 0.3f);
                 break;
             case ("Blue"):
-                SoundPlayer.PlayOneShot(DestroyBlueBlockSound);
+                SoundPlayer.PlayOneShot(DestroyBlueBlockSound, 0.3f);
                 break;
         }
     }
@@ -58,10 +58,10 @@ public class SoundEffectsPlayer : MonoBehaviour
         switch(BounceObject)
         {
             case ("Boundary"):
-                SoundPlayer.PlayOneShot(BounceBoundarySound);
+                SoundPlayer.PlayOneShot(BounceBoundarySound, 0.3f);
                 break;
             case ("Paddle"):
-                SoundPlayer.PlayOneShot(BouncePaddleSound);
+                SoundPlayer.PlayOneShot(BouncePaddleSound, 0.3f);
                 break;
         }
     }
@@ -72,10 +72,10 @@ public class SoundEffectsPlayer : MonoBehaviour
         switch (EventName)
         {
             case ("BeginRound"):
-                SoundPlayer.PlayOneShot(BeginRoundSound);
+                SoundPlayer.PlayOneShot(BeginRoundSound, 0.3f);
                 break;
             case ("BallLost"):
-                SoundPlayer.PlayOneShot(BallLostSound);
+                SoundPlayer.PlayOneShot(BallLostSound, 0.3f);
                 break;
         }
 
